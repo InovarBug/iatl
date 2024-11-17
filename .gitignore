@@ -1,0 +1,30 @@
+# Arquivos e diretórios do sistema
+.bash_logout
+.bashrc
+.cache/
+.gitconfig
+.ipython/
+.local/
+.profile
+.sudo_as_admin_successful
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
