@@ -1,1 +1,0 @@
-# Módulo image_processing
