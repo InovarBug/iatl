@@ -1,0 +1,1 @@
+# Módulo screen_capture
