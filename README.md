@@ -16,34 +16,18 @@ Este projeto é um script de automação de habilidades para o jogo Throne and L
 - `image_processing.py`: Módulo para processamento de imagem
 - `skill_detection.py`: Módulo para detecção de habilidades ativas
 - `key_automation.py`: Módulo para automação de teclas
-- `gui.py`: Módulo para a interface gráfica (não utilizado diretamente, integrado em main.py)
+- `gui.py`: Módulo para a interface gráfica
 
 ## Como Usar
 
-1. Execute o script `main.py`
-2. Na interface gráfica, insira:
+1. Clone o repositório
+2. Instale as dependências: `pip install -r requirements.txt`
+3. Execute o script: `python main.py`
+4. Na interface gráfica, insira:
    - A tecla da habilidade que deseja automatizar
    - A região da tela onde a habilidade é exibida (formato: x,y,largura,altura)
    - A cor que indica que a habilidade está ativa (formato: R,G,B)
-3. Clique em "Iniciar" para começar a automação
-
-## Melhorias Realizadas
-
-1. Implementação de uma interface gráfica para facilitar o uso
-2. Modularização do código para melhor organização e manutenibilidade
-3. Uso de processamento de imagem para detecção mais precisa de habilidades ativas
-
-## Passos para Melhorias Futuras
-
-1. Implementar um sistema de configuração para salvar e carregar configurações de habilidades
-2. Adicionar suporte para múltiplas habilidades simultaneamente
-3. Melhorar a precisão da detecção de habilidades usando técnicas mais avançadas de processamento de imagem ou machine learning
-4. Implementar um sistema de logging para rastrear o uso de habilidades e possíveis erros
-5. Adicionar uma funcionalidade de "modo de aprendizagem" para facilitar a configuração de novas habilidades
-6. Otimizar o desempenho do script para reduzir o uso de recursos do sistema
-7. Implementar medidas de segurança adicionais para evitar detecção como software não autorizado
-8. Adicionar suporte para diferentes resoluções de tela e configurações gráficas do jogo
-9. Criar uma documentação mais detalhada e um guia de uso passo a passo
+5. Clique em "Iniciar" para começar a automação
 
 ## Aviso Legal
 
@@ -52,4 +36,3 @@ Este script é apenas para fins educacionais e de demonstração. O uso de scrip
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias ou correções.
-
