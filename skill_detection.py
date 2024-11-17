@@ -1,0 +1,1 @@
+# Módulo skill_detection
